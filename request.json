@@ -1,0 +1,56 @@
+{
+  "order_id": "{{order_id}}",
+  "external_id": "{{external_id}}",
+  "amount": 1000,
+  "description": "Pembayaran oleh Ester",
+  "customer_details": {
+    "full_name": "Juni Doe",
+    "email": "juni.doe@gmail.com.com",
+    "phone": "081234567855",
+    "address": "Jakarta"
+  },
+  "item_details": [
+    {
+      "item_id": "item1",
+      "name": "test",
+      "amount": 500,
+      "qty": 1
+    },
+    {
+      "item_id": "item2",
+      "name": "test",
+      "amount": 100,
+      "qty": 2
+    },
+    {
+      "item_id": "item3",
+      "name": "test",
+      "amount": 300,
+      "qty": 1
+    }
+  ],
+  "selected_channels": [
+    { "channel": "CARD", "acq": "BCACC" },
+    { "channel": "QRIS", "acq": "SHOPEEPAY" }
+  ],
+  "billing_address": {
+    "full_name": "Alvin Joe",
+    "phone": "081234567855",
+    "address": "13051 Bell Tower Dr",
+    "city": "Jakarta",
+    "postal_code": "10240",
+    "country": "ID"
+  },
+  "shipping_address": {
+    "full_name": "Alvin Joe",
+    "phone": "081234567855",
+    "address": "13051 Bell Tower Dr",
+    "city": "Jakarta",
+    "postal_code": "10240",
+    "country": "ID"
+  },
+  "save_card": false,
+  "callback_url": "https://tokentest.free.beeceptor.com",
+  "success_redirect_url": "https://qspage.vercel.app/decode?success=true",
+  "failed_redirect_url": "https://qspage.vercel.app/decode?success=false"
+}
