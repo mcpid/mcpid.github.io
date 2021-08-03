@@ -16,7 +16,7 @@ const credentials = {
 //   role: "admin",
 // };
 
-const POST_URL = "https://api-stg.mcpayment.id/payment-page/payment";
+const POST_URL = "https://api-stage.mcpayment.id/payment-page/payment";
 // const POST_URL = "http://localhost:3001/payment";
 
 const numeric = "0123456789";
